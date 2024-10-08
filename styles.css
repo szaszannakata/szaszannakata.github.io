@@ -16,10 +16,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: url('images/IMG_7602.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, rgb(21, 52, 88), white); /* Színátmenet sötétkékből fehérbe */
     color: white;
     text-align: center;
     display: flex;
