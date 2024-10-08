@@ -16,7 +16,6 @@ body {
 
 header {
     height: 100vh;
-    background: url('images/IMG_7602.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     display: flex;
@@ -24,6 +23,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    background-color: rgb(21, 52, 88);
 }
 
 nav ul {
