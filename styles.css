@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ body {
 
 header {
     height: 100vh;
-    background: url('IMG_7602.jpg') no-repeat center center/cover;
+    background: url('images/IMG_7602.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     display: flex;
@@ -280,3 +281,19 @@ footer {
     text-shadow: 1px 1px 2px rgba(10, 29, 60, 0.276); /* Finom árnyék a jobb láthatóságért */
     margin: 20px 0; /* További margó beállítása */
 }
+footer a {
+    color: #8bbbd6; /* Link színe */
+    text-decoration: none; /* Aláhúzás eltávolítása */
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Aláhúzás, amikor a link fölé viszik az egeret */
+}
+
+  .portfolio-item img, .portfolio-item video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
